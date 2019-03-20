@@ -45,6 +45,19 @@
 #color16{
     background-color: #2b3946;
 }
+#color17{
+    background-color: #df3742;
+}
+#color18{
+    background-color: #ecd018;
+}
+#color19{
+    background-image: linear-gradient(-225deg, #30D2BE 0%, #3584A7 51%, #473B7B 100%);    
+
+}
+#color20{
+    background-image: linear-gradient(+225deg,  #3d4da3 0%, #290f54 100%);
+}
 .box{
     height: 200px;
     width: 200px;
@@ -54,7 +67,16 @@
 #grid-container{
     display: grid;
     grid-template-columns: repeat(5, 200px) ;
-    grid-template-rows: repeat(4, 200px);
-    grid-gap: 100px;
+    grid-template-rows: repeat(4, auto);
+    grid-gap: 50px;
+    text-align: center;
 }
-
+body{
+    margin-left:150px;
+}
+.logo{
+    height: 150px;
+    width: auto;
+    top: 23px;
+    position: relative;
+}
